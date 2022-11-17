@@ -11,6 +11,6 @@ public:
 	Book();
 
 	Book(int m_ObjType, int id, string description, string productor, int price, string author, string title, int isbn);
-	void showBook();
+	void printInfo();
 };
 

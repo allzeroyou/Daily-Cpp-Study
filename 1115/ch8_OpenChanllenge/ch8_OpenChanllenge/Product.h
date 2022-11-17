@@ -12,11 +12,12 @@ public:
 	int price;
 	// 각 객체가 어떤건지 정해줌
 	int m_ObjType;
-
+	static int numberOfProduct;
 	Product();
 
 	Product(int m_ObjType, int id, string description, string productor, int price);
 
-	void showProduct();
+	void printInfo();
+
 };
 
