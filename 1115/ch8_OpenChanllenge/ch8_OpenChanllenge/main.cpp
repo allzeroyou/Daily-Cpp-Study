@@ -26,7 +26,7 @@ int main(void) {
 	// 뽑을 객체가 어떤 객체인지 가져옴
 	//Product* p_ptr = nullptr;
 
-	for (int i = 0; i < 100; i++) {
+	for (int i = 0; i < Product::numberOfProduct; i++) {
 		//if (productInfo[i] == nullptr) {
 		//	return -1;
 		//}
@@ -63,7 +63,7 @@ int main(void) {
 	}
 	 // new의 페어. delete로 메모리 동적할당 해제 해주어야!
 	 // 100개를 돌지말고 "객체 갯수"를 이용해 효율적으로 코드 작성하기
-	for (int i = 0; i < 100; i++) {
+	for (int i = 0; i < Product::numberOfProduct; i++) {
 		//if (productInfo[i] != nullptr) {
 			//p_ptr = (Product*)productInfo[i];
 
