@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch10.템플릿과 표준 템플릿 라이브러리", "ch10.템플릿과 표준 템플릿 라이브러리\ch10.템플릿과 표준 템플릿 라이브러리.vcxproj", "{A61EA296-F41F-4B5A-989B-AD07BA09E90E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "제네릭 myswap 함수 만들기", "제네릭 myswap 함수 만들기\제네릭 myswap 함수 만들기.vcxproj", "{EB7A07F2-C37B-4A92-9B00-D73EE482701B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A61EA296-F41F-4B5A-989B-AD07BA09E90E}.Debug|x64.ActiveCfg = Debug|x64
+		{A61EA296-F41F-4B5A-989B-AD07BA09E90E}.Debug|x64.Build.0 = Debug|x64
+		{A61EA296-F41F-4B5A-989B-AD07BA09E90E}.Debug|x86.ActiveCfg = Debug|Win32
+		{A61EA296-F41F-4B5A-989B-AD07BA09E90E}.Debug|x86.Build.0 = Debug|Win32
+		{A61EA296-F41F-4B5A-989B-AD07BA09E90E}.Release|x64.ActiveCfg = Release|x64
+		{A61EA296-F41F-4B5A-989B-AD07BA09E90E}.Release|x64.Build.0 = Release|x64
+		{A61EA296-F41F-4B5A-989B-AD07BA09E90E}.Release|x86.ActiveCfg = Release|Win32
+		{A61EA296-F41F-4B5A-989B-AD07BA09E90E}.Release|x86.Build.0 = Release|Win32
+		{EB7A07F2-C37B-4A92-9B00-D73EE482701B}.Debug|x64.ActiveCfg = Debug|x64
+		{EB7A07F2-C37B-4A92-9B00-D73EE482701B}.Debug|x64.Build.0 = Debug|x64
+		{EB7A07F2-C37B-4A92-9B00-D73EE482701B}.Debug|x86.ActiveCfg = Debug|Win32
+		{EB7A07F2-C37B-4A92-9B00-D73EE482701B}.Debug|x86.Build.0 = Debug|Win32
+		{EB7A07F2-C37B-4A92-9B00-D73EE482701B}.Release|x64.ActiveCfg = Release|x64
+		{EB7A07F2-C37B-4A92-9B00-D73EE482701B}.Release|x64.Build.0 = Release|x64
+		{EB7A07F2-C37B-4A92-9B00-D73EE482701B}.Release|x86.ActiveCfg = Release|Win32
+		{EB7A07F2-C37B-4A92-9B00-D73EE482701B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ED8D37A-ADFD-4554-9747-313D757BC522}
+	EndGlobalSection
+EndGlobal
